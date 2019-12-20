@@ -12,13 +12,19 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="text-white px-3" to="/test1">SKILL</router-link>
+            <router-link class="text-white px-3" to="/test1">
+              <font-awesome-icon icon="pen" />SKILL
+            </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="text-white px-3" to="/test2">WORKS</router-link>
+            <router-link class="text-white px-3" to="/test2">
+              <font-awesome-icon icon="user" />WORKS
+            </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="text-white px-3" to="/test3">CONTACT</router-link>
+            <router-link class="text-white px-3" to="/test3">
+              <font-awesome-icon icon="envelope" />CONTACT
+            </router-link>
           </li>
         </ul>
       </div>
