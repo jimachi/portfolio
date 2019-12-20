@@ -2,7 +2,6 @@
   <div id="app">
     <myheader></myheader>
     <router-view/>
-    <b-button>Button</b-button>
   </div>
 </template>
 
@@ -18,10 +17,6 @@ export default {
 </script>
 
 <style>
-body {
-
-}
-
 header {
   width: 100%;
   height: 10%;
