@@ -9,12 +9,14 @@
 <script>
 import myHeader from "./components/myheader";
 import profile from "./components/profile";
+import skill from "./components/skill"
 
 export default {
   name: 'App',
   components: {
     myHeader,
-    profile
+    profile,
+    skill
   }
 }
 </script>
