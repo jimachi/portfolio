@@ -6,7 +6,8 @@
             <p class="profile__text">
                 はじめまして。飯島雄一郎と申します。<br>
                 2017年4月から社会人になり、社会人になってから今に至るまでずっとIT業界で働いております。<br>
-                現在は、Webフロントエンジニアとして働いてます。
+                現在は、Webフロントエンジニアとして働いてます。<br>
+                近頃はコーディングのスピードをあげられるよう、とにかくコード書くようにしてます!!
             </p>
         </div>
     </div>
@@ -17,11 +18,11 @@
 .profile__container {
     display: block;
     margin: 10px;
-    width: 80%;
+    width: 60%;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    background: red;
+    background: #c0c0c0;
 }
 
 h2 {
@@ -29,11 +30,13 @@ h2 {
 }
 
 .profile__icon {
+    margin: 25px;
     float: left;
     border-radius: 50%;
 }
 
 .profile__text {
+    margin-top: 150px;
     float: left;
 }
 </style>
