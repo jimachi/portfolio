@@ -2,6 +2,7 @@
   <div id="app">
     <myHeader></myHeader>
     <profile></profile>
+    <skill></skill>
     <router-view/>
   </div>
 </template>
