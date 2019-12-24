@@ -16,7 +16,6 @@
 
 <style scoped>
 .profile__container {
-    display: block;
     margin: 10px;
     width: 60%;
     height: 500px;
