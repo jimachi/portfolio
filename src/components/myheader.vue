@@ -3,31 +3,13 @@
     <header>
       <h1>Portfolio</h1>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/">
-              <font-awesome-icon icon="user" />Profile
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/test1">
-              <font-awesome-icon icon="pen" />SKILL
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/test2">
-              <font-awesome-icon icon="user" />WORKS
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="text-white px-3" to="/test3">
-              <font-awesome-icon icon="envelope" />CONTACT
-            </router-link>
-          </li>
-        </ul>
-      </div>
+    <nav>
+      <ul class="nav">
+        <li><font-awesome-icon class="nav-icon" icon="user" /><a href="#">Profile</a></li>
+        <li><font-awesome-icon class="nav-icon" icon="pen" /><a href="#">SKILL</a></li>
+        <li><font-awesome-icon class="nav-icon" icon="user" /><a href="#">WORKS</a></li>
+        <li><font-awesome-icon class="nav-icon" icon="envelope" /><a href="#">CONTACT</a></li>
+      </ul>
     </nav>
   </div>
 </template>
@@ -38,10 +20,33 @@
     height: 50vh;
     background: url("../assets/headerImg.jpg") center / cover;
   }
-
   h1 {
     color: white;
     text-align: center;
     line-height: 50vh;
   }
+  nav {
+    text-align: center;
+    background: #001e43;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 90px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fffff9;
+  }
+  .nav-icon {
+    margin-right: 5px;
+    color: #fffff9;
+  }
+
 </style>

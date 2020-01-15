@@ -10,7 +10,7 @@
     class="mb-2"
   >
     <b-card-text>
-      当サイトです。
+      {{ title }}
     </b-card-text>
 
     <b-button href="#" variant="primary">Go somewhere</b-button>
@@ -19,8 +19,9 @@
 </template>
 <script>
 export default {
+    name: "skill_container",
     data: {
-        parent: "hoge"
+        title: "このサイトです。"
     }
 }
 </script>
