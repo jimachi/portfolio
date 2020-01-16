@@ -4,11 +4,11 @@
       <h1>Portfolio</h1>
     </header>
     <nav>
-      <ul class="float">
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">SKILL</a></li>
-        <li><a href="#">WORKS</a></li>
-        <li><a href="#">CONTACT</a></li>
+      <ul>
+        <li><a class="nav-menu-link" href="#">Profile</a></li>
+        <li><a class="nav-menu-link" href="#">SKILL</a></li>
+        <li><a class="nav-menu-link" href="#">WORKS</a></li>
+        <li><a class="nav-menu-link" href="#">CONTACT</a></li>
       </ul>
     </nav>
   </div>
@@ -28,35 +28,19 @@
   nav {
     text-align: center;
     background: #001e43;
-  }
-  nav ul {
-    margin: 0;
-    padding: 0;
     height: 50px;
   }
   nav ul li {
-    position: relative;
+    width: 15%;
     list-style: none;
     display: inline-block;
-    margin: 0 10px 0 0;
-    height: 50%;
-    width: 10%;
-    min-width: 90px;
   }
-  .float {
-    width: 270px;
-    margin: auto;
-    overflow: hidden;
-  }
-  .float li {
-    float: left;
-  }
-  nav ul li a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: auto;
+  .nav-menu-link {
+    display: block;
+    margin-top: 14px;
     text-decoration: none;
+    height: 50px;
+    width: 100%;
     color: #fffff9;
   }
 
